@@ -1,49 +1,44 @@
 {
-  "expo": {
-    "name": "google-signin",
-    "slug": "google-signin",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "plugins": [
-      "@react-native-google-signin/google-signin"
-    ],
-    "ios": {
-      "bundleIdentifier": "",
-      "supportsTablet": true,
-      "infoPlist": {
-        "CFBundleURLTypes": [
-          {
-            "CFBundleURLSchemes": [
-              ""
-            ]
-          }
-        ]
+  "cli": {
+    "version": ">= 3.7.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium",
+        "simulator": true,
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
       }
     },
-    "android": {
-      "package": "",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium",
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "6766daa7-0e2b-4a4e-8bea-3283b8c89a68"
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium",
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "app-bundle",
+        "image": "latest"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
