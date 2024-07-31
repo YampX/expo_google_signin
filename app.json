@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Google SignIn",
+    "name": "google-signin",
     "slug": "google-signin",
     "version": "1.0.0",
     "orientation": "portrait",
