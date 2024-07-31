@@ -17,21 +17,8 @@
     "plugins": [
       "@react-native-google-signin/google-signin"
     ],
-    "ios": {
-      "bundleIdentifier": "",
-      "supportsTablet": true,
-      "infoPlist": {
-        "CFBundleURLTypes": [
-          {
-            "CFBundleURLSchemes": [
-              ""
-            ]
-          }
-        ]
-      }
-    },
     "android": {
-      "package": "",
+      "package": "com.juan_pablo_78.googlesignin",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -42,7 +29,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "6766daa7-0e2b-4a4e-8bea-3283b8c89a68"
+        "projectId": "67075769-5b73-44a5-b813-6c5156b1bd93"
       }
     }
   }

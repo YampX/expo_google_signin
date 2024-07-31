@@ -16,10 +16,8 @@ export default function App() {
 
   const configureGoogleSignIn = () => {
     GoogleSignin.configure({
-      webClientId:
-        "72307864794-vrqf4k859s84o77u52b06l2btc1ap73o.apps.googleusercontent.com",
       androidClientId:
-        "72307864794-v5k7ua1dkhnb3f8s1ccnru8b5gfa70ck.apps.googleusercontent.com",
+        "1075093824643-tsueav20msvjdpbh8stqdj3vuqcprioe.apps.googleusercontent.com",
     });
   };
 
